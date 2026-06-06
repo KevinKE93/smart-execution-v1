@@ -1,0 +1,4 @@
+interface:
+  display_name: "Smart Execution V1"
+  short_description: "Handle ambiguous, multi-step, risky tasks"
+  default_prompt: "Use Smart Execution V1 when the task is ambiguous, multi-step, quality-sensitive, context-dependent, or risky to change. Inspect real context, define success criteria, take the smallest useful path, verify the result, and report concisely."
