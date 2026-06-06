@@ -1,6 +1,6 @@
 ---
 name: Smart Execution V1
-description: Use Smart Execution V1 when a task is ambiguous, multi-step, quality-sensitive, context-dependent, risky to change, or likely to require trade-offs, verification, iteration, or reusable learning. Helps Codex inspect real context, define success criteria, choose the smallest effective path, execute, verify, report clearly, and capture durable learning only when appropriate. Do not use for simple direct answers, trivial one-command tasks, or when a narrower specialist skill fully covers the work.
+description: Use Smart Execution V1 when a task is ambiguous, multi-step, quality-sensitive, context-dependent, risky to change, or likely to require trade-offs, verification, iteration, or reusable learning. Helps an AI agent inspect real context, define success criteria, choose the smallest effective path, execute, verify, report clearly, and capture durable learning only when appropriate. Do not use for simple direct answers, trivial one-command tasks, or when a narrower specialist skill fully covers the work.
 ---
 
 # Smart Execution V1
