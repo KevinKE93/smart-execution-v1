@@ -7,13 +7,14 @@ GitHub: [https://github.com/KevinKE93](https://github.com/KevinKE93)
 
 Smart Execution V1 is a lightweight execution skill for AI agents. It is for tasks where guessing is not good enough.
 
-When a request is vague, multi-step, tied to existing files, quality-sensitive, or risky to change, an agent should slow down before acting. It should inspect the real context, decide what success means, take the smallest useful path, and verify the result.
+When a request is vague, multi-step, tied to existing files, quality-sensitive, or risky to change, an agent should slow down before acting. It should inspect the real context, notice which skills, plugins, tools, or adapters are available, choose the smallest useful path, and verify the result.
 
 Smart Execution V1 gives the agent that working rhythm.
 
 ### What It Improves
 
 - Fewer guesses before checking the actual context
+- Better use of installed skills, plugins, tools, and host capabilities
 - Clearer success criteria for subjective or quality-sensitive work
 - Smaller, more focused changes
 - Less unnecessary refactoring or scope drift
@@ -40,7 +41,7 @@ Do not use it for simple facts, tiny rewrites, one-command tasks, or cases where
 The skill uses a compact loop:
 
 1. Understand the goal and constraints.
-2. Inspect real context before making claims.
+2. Inspect real context, including available skills, plugins, tools, and project files.
 3. Define success criteria when quality matters.
 4. Choose the smallest path that can solve the task.
 5. Act in focused steps.
@@ -85,13 +86,14 @@ MIT License. See [LICENSE](LICENSE).
 
 Smart Execution V1 是一个轻量级的 AI agent 执行 skill，适合那些不能靠猜的任务。
 
-当需求不够清楚、步骤较多、依赖已有文件、对质量有要求，或者改错了会比较麻烦时，agent 不应该急着下结论或直接改文件。它应该先看真实上下文，想清楚什么算完成，再用最小有效路径推进，并验证结果。
+当需求不够清楚、步骤较多、依赖已有文件、对质量有要求，或者改错了会比较麻烦时，agent 不应该急着下结论或直接改文件。它应该先看真实上下文，留意当前可用的 skills、plugins、tools 或适配器，再用最小有效路径推进，并验证结果。
 
 Smart Execution V1 提供的就是这种工作节奏。
 
 ### 它改善什么
 
 - 少凭感觉猜，多先看真实上下文
+- 主动利用已安装的 skills、plugins、tools 和宿主能力
 - 质量敏感的任务先说清楚成功标准
 - 改动更小、更集中
 - 减少不必要的重构和跑偏
@@ -118,7 +120,7 @@ Smart Execution V1 提供的就是这种工作节奏。
 这个 skill 使用一个紧凑的执行闭环：
 
 1. 理解目标和约束。
-2. 先检查真实上下文，再做判断。
+2. 检查真实上下文，包括可用 skills、plugins、tools 和项目文件。
 3. 质量敏感时，先定义成功标准。
 4. 选择最小但能解决问题的路径。
 5. 用集中的步骤推进。
